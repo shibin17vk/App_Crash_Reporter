@@ -1,0 +1,95 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+	package
+		ADDED from AndroidManifest.xml:3:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:5:5
+	android:versionCode
+		ADDED from AndroidManifest.xml:4:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-sdk
+ADDED from AndroidManifest.xml:7:5
+MERGED from Sample:crashReporterLibrary:unspecified:8:5
+MERGED from com.android.support:appcompat-v7:22.2.1:20:5
+MERGED from com.android.support:support-v4:22.2.1:20:5
+MERGED from com.android.support:support-v4:22.2.1:20:5
+MERGED from com.android.support:support-v4:22.2.1:20:5
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:9:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:8:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+application
+ADDED from AndroidManifest.xml:11:5
+MERGED from Sample:crashReporterLibrary:unspecified:15:5
+MERGED from com.android.support:appcompat-v7:22.2.1:22:5
+MERGED from com.android.support:support-v4:22.2.1:22:5
+MERGED from com.android.support:support-v4:22.2.1:22:5
+MERGED from com.android.support:support-v4:22.2.1:22:5
+	android:label
+		ADDED from AndroidManifest.xml:15:9
+	android:allowBackup
+		ADDED from AndroidManifest.xml:12:9
+	android:icon
+		ADDED from AndroidManifest.xml:14:9
+	android:theme
+		ADDED from AndroidManifest.xml:16:9
+	android:name
+		ADDED from AndroidManifest.xml:13:10
+activity#com.blog4android.MainActivity
+ADDED from AndroidManifest.xml:17:9
+	android:label
+		ADDED from AndroidManifest.xml:19:13
+	android:name
+		ADDED from AndroidManifest.xml:18:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:20:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:21:17
+	android:name
+		ADDED from AndroidManifest.xml:21:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:23:17
+	android:name
+		ADDED from AndroidManifest.xml:23:27
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:28:5
+MERGED from Sample:crashReporterLibrary:unspecified:12:5
+	android:name
+		ADDED from AndroidManifest.xml:28:22
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from AndroidManifest.xml:29:5
+MERGED from Sample:crashReporterLibrary:unspecified:13:5
+	android:name
+		ADDED from AndroidManifest.xml:29:22
+service#com.blog4android.crashreporter.ServiceReportCrash
+ADDED from Sample:crashReporterLibrary:unspecified:20:9
+	android:enabled
+		ADDED from Sample:crashReporterLibrary:unspecified:22:13
+	android:name
+		ADDED from Sample:crashReporterLibrary:unspecified:21:13
+receiver#com.blog4android.crashreporter.Receiver
+ADDED from Sample:crashReporterLibrary:unspecified:25:9
+	android:name
+		ADDED from Sample:crashReporterLibrary:unspecified:25:19
+intent-filter#android.intent.action.ACTION_POWER_CONNECTED+android.net.conn.CONNECTIVITY_CHANGE
+ADDED from Sample:crashReporterLibrary:unspecified:26:13
+	android:priority
+		ADDED from Sample:crashReporterLibrary:unspecified:26:28
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from Sample:crashReporterLibrary:unspecified:27:17
+	android:name
+		ADDED from Sample:crashReporterLibrary:unspecified:27:25
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from Sample:crashReporterLibrary:unspecified:28:17
+	android:name
+		ADDED from Sample:crashReporterLibrary:unspecified:28:25
